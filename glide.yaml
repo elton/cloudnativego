@@ -1,2 +1,2 @@
-package: cloudnativego
+package: github.com/elton/cloudnativego
 import: []
