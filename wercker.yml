@@ -28,9 +28,8 @@ build:
 
     # Gets the dependencies
     - script:
-        name: go get
-        code: |
-          go get
+        name: env
+        code: env
 
     # Build the project
     - script:
