@@ -36,7 +36,7 @@ build:
     # Sets the go workspace and places you package
     # at the right place in the workspace tree
     - setup-go-workspace
-    package-dir: github.com/elton/cloudnativego
+        package-dir: github.com/elton/cloudnativego
 
     # Gets the dependencies
     - script:
@@ -63,7 +63,7 @@ build:
         name: go test
         code: |
           go test -v $(glide novendor)
-          
+
     - script:
         name: copy files to wercker output
         code: |
